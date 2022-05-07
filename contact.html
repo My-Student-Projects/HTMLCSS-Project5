@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <title>Central PA Classic Car Show Contact Form</title>
+    <style>
+      .myfields {width: 350px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-left: 10%;
+      }   
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- page header -->
+      <header>
+        <h1 id="title">Central PA Classic Car Show Fan Contact</h1>
+      </header>
+      <!-- nav bar -->
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Main Content area -->
+      <section class="main">
+        <h2>Contact Us to Attend Your Event</h2>
+        <form action="contact_page.php">
+          <p class="myfields">Full name: <br>
+            <input name="fullname" class="myfields" type="text"></p>
+          <p class="myfields">Phone number: <br>
+            <input name="phone" class="myfields" type="text"></p>
+          <p class="myfields">Email address: <br>
+            <input name="email" class="myfields" type="text"></p>
+          <p class="myfields">County: <br>
+            <select name="county">
+              <option value="dauphin">Dauphin</option>
+              <option value="york">York</option>
+              <option value="lancaster">Lancaster</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+          <p class="myfields">Season: <br>
+            <input name="season" value="spring" checked="checked" type="radio">
+            Spring <br>
+            <input name="season" value="summer" type="radio"> Summer <br>
+            <input name="season" value="fall" type="radio"> Fall <br>
+            <input name="season" value="winter" type="radio"> Winter <br>
+          </p>
+          <p class="myfields">Message: <br>
+            <textarea name="message" rows="10" cols="45">Please list the name, location and date of your event here.
+              </textarea> <br>
+            <br>
+            <input value="Submit" type="submit"></p>
+        </form>
+        <p style="text-align: center;"><svg height="130" width="500">
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"></stop>
+              <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"></stop>
+            </linearGradient> </defs>
+          <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)"></ellipse>
+          <text fill="#ffffff" font-size="30" font-family="Verdana" x="28" y="86">MotorON!</text> Sorry, your browser does not support inline SVG.</svg></p>
+      </section>
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <p style="text-align: center; font-weight: bold; color: #59955C;">Sponsored
+          by:<br>
+          <a href="http://www.carlisleevents.com/" target="_blank">Carlisle
+            Events</a></p>
+        <p style="text-align: center;"> <a class="twitter-timeline" data-height="600"
+
+            data-dnt="true" data-theme="light" href="https://twitter.com/CarlisleEvents?ref_src=twsrc%5Etfw">Tweets
+            by CarlisleEvents</a>
+          <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </p>
+      </aside>
+    </div>
+    
+  </body>
+</html>
